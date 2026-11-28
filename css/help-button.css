@@ -1,0 +1,13 @@
+.help__button {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	position: fixed;
+	left: 25px;
+	bottom: 20px;
+	z-index: 999999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(150deg, #7f53ef 14.63%, #2586ff 100%);
+}

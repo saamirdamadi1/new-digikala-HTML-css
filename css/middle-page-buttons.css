@@ -1,0 +1,30 @@
+.middle__page__buttons {
+	width: 87vw;
+	display: flex;
+	gap: 16px;
+	margin: 0 auto;
+	padding: 0 16px;
+	flex-direction: column;
+	align-items: center;
+	.middle__page__items__parent {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		.middle__page__buttons__item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			img {
+				width: 100px;
+				height: 100px;
+			}
+			p {
+				font-size: 12px;
+				color: #0c0c0c;
+				text-align: center;
+				line-height: 18px;
+			}
+		}
+	}
+}

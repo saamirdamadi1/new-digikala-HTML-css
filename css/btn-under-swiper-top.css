@@ -1,0 +1,35 @@
+.btn__under__slider {
+	width: 87vw;
+	margin: 24px auto;
+	padding: 0 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap row;
+	.buttons__btn__under__slider {
+        width: 96px;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		text-decoration: none;
+		align-items: center;
+		img {
+			width: 52px;
+			height: 52px;
+		}
+		p {
+			font-size: 12px;
+			color: #3f4064;
+			font-weight: 900;
+			text-align: center;
+		}
+        .more__btn{
+            width: 52px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F0F0F1;
+            border-radius: 50%;
+        }
+	}
+}

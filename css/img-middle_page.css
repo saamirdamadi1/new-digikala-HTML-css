@@ -1,0 +1,11 @@
+.img__middle__page {
+	width: 87vw;
+	display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 16px;
+    img{
+        width: calc(25% - 16px);
+        border-radius: 10px;
+    }
+}

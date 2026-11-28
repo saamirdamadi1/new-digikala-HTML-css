@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: digi;
+}
+
+@font-face {
+    font-family: digi;
+    src: url(../fonts/Digikala-Regular.eot);
+    src: url(../fonts/Digikala-Regular.ttf);
+    src: url(../fonts/Digikala-Regular.woff);
+    src: url(../fonts/Digikala-Regular.woff2);
+}
